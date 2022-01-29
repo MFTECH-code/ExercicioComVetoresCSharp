@@ -17,8 +17,7 @@
 
         public override string ToString()
         {
-            return Residente
-                + "Quarto: " + Numero;
+            return $"{Numero}: {Residente}";
         }
     }
 }

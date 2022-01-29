@@ -17,10 +17,9 @@
 
         public override string ToString()
         {
-            return "Nome: "
-                + Nome
-                + "Email: "
-                + Email;
+            return Nome
+                   + ", "
+                   + Email;
         }
     }
 }
