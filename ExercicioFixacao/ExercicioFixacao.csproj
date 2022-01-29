@@ -39,6 +39,7 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="Entities\Pensao.cs" />
         <Compile Include="Entities\Quarto.cs" />
         <Compile Include="Entities\Residente.cs" />
         <Compile Include="Program.cs" />

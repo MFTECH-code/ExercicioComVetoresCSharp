@@ -5,9 +5,9 @@
         public Residente Residente { get; set; }
         public int Numero { get; set; }
 
-        public Quarto()
+        public Quarto(int numero)
         {
-            
+            Numero = numero;
         }
         public Quarto(Residente residente, int numero)
         {
